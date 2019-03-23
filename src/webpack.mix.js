@@ -13,3 +13,14 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
+
+/*
+ |--------------------------------------------------------------------------
+ | Bootstrap3 free admin template
+ |--------------------------------------------------------------------------
+ | https://github.com/ColorlibHQ/gentelella
+ */
+mix.copy('node_modules/gentelella/build/js/custom.js', 'public/js/gentelella.js')
+   .copy('node_modules/gentelella/build/css/custom.css', 'public/css/gentelella.css')
+   .copyDirectory('node_modules/gentelella/vendors', 'public/vendors')
+   .copyDirectory('node_modules/gentelella/build/images', 'public/img');
