@@ -1,5 +1,7 @@
-# ホココ - hococo -
-www.hococo.jpの新環境
+# Laravel5.5 + Gentelella
+Bootstrap3 free template
+
+https://github.com/ColorlibHQ/gentelella
 
 ## 前提条件
 - dockerクライアントが必要
